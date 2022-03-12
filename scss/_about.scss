@@ -2,3 +2,8 @@
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)), url(../img/1.webp);
     background-size: cover;
 }
+.card-columns{
+    column-count: 2;
+    column-gap: 1.25rem;
+    orphans: 1;
+}
