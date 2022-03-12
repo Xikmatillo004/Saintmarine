@@ -1,3 +1,9 @@
+.about {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.6))), url(../img/1.webp);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)), url(../img/1.webp);
+  background-size: cover;
+}
+
 body {
   -webkit-perspective: 2000px;
           perspective: 2000px;
