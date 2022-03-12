@@ -1,0 +1,204 @@
+body{
+    perspective: 2000px;
+}
+.navbar__menu{
+    width: 150px;
+    background-color: white;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 115%;
+    left: 0;
+    transition: all 0.2s ease;
+}
+.navbar__hover:hover .navbar__menu{
+    height: 60px;
+}
+.navbar__hover:hover .navbar__menu1{
+    height: 75px;
+}
+.bg-yellow{
+    background-color: #fe5c24;
+}
+.text-yellow{
+    color: #fe5c24;
+}
+.navbar__btn{
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: #1a8ddf;;
+    }
+}
+.banner__part{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+}
+.banner__hover{
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: #fe5c24;
+    }
+}
+.display{
+    font-size: 120px;
+}
+.booking__select{
+    outline: none;
+    border: #1a8ddf solid 1px;
+    color: #1a8ddf;
+}
+.booking__absolute{
+    top: -70px;
+    right: 0;
+    left: 0;
+}
+.header{
+    margin-top: 230px;
+}
+.text-prime{
+    color: #0c3e72;
+}
+.display-5{
+    font-size: 46px;
+}
+.mover{
+    &:hover .z-index1{
+        opacity: 1;
+    }
+    &:hover .z-index{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.z-index{
+    bottom: 20px;
+    left: 50px;
+    opacity: 0;
+    transition: all 0.8s ease;
+    transform: translateY(20px);
+}
+.z-index1{
+    background-image: linear-gradient(to top, rgba(22, 15, 66, 0.753));
+    top: 0;
+    left: 0;
+    width: 97.5%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+.share{
+    width: 60px;
+    height: 60px;
+    right: 30px;
+    bottom: 30px;
+    background-color: rgba(240, 248, 255, 0.322);
+}
+.main-carousel{
+    background-image: url(../img/xevent_bg.png.pagespeed.ic.VW2fNx4BL2.webp);
+    padding: 130px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel__menu{
+    width: 555px;
+    margin-right: 100px;
+}
+.carousel__a{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(240, 248, 255, 0.527);
+}
+.pointer{
+    cursor: pointer;
+}
+.shared{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(240, 248, 255, 0.568);
+    right: 20px;
+    bottom: 20px;
+}
+.main__shared:hover > .shared{
+    transform: scaleX(0);
+    transition: all 0.5s ease;
+}
+.main__shared:hover .hover__icons{
+    transform: scaleY(1);
+}
+.main__shared{
+    bottom: 10px;
+    right: 30px;
+}
+.main__share{
+    width: 40px;
+    height: 40px;
+    background-color: #fe5b24ad;
+}
+.hover__icons{
+    transform: scaleY(0);
+    transition: all 0.5s ease;
+}
+.bg-prime{
+    background-color: #0c3e72;
+}
+.bg-blue{
+    background-color: #0e477d;
+}
+.carousel__button{
+    top: -80px;
+    right: 20px;
+}
+.carousel__next{
+    width: 40px !important;
+    height: 40px !important;
+}
+.bg-footer{
+    background-color: #162b45;
+}
+.bg-footer1{
+    background-color: #08223a;
+}
+.footer__link{
+    transition: all 0.3s ease;
+    &:hover{
+        color: #fe5c24 !important;
+    }
+}
+.footer__input{
+    height: 50px;
+    width: 84%;
+    &:focus{
+        color: #fff;
+    }
+}
+.footer__button{
+    width: 16%;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    .banner__h1{
+        font-size: 60px;
+    }
+    .header{
+        margin-top: 330px;
+    }
+}
+@media (max-width:756px) {
+    .header{
+        margin-top: 330px;
+    }
+    .mover2 , .mover4{
+        &::after{
+            left: 0;
+        }
+    }
+}
