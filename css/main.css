@@ -12,6 +12,24 @@
   orphans: 1;
 }
 
+.font-weight {
+  font-weight: 600;
+}
+
+.opacity-07 {
+  opacity: 0.7;
+}
+
+.blog__li {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.blog__li:hover {
+  background-color: #fe5c24 !important;
+  color: #fff;
+}
+
 body {
   -webkit-perspective: 2000px;
           perspective: 2000px;
